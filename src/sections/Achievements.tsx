@@ -1,4 +1,4 @@
-export default function About() {
+export default function Achievements() {
   return (
     <section
       id="achievements"

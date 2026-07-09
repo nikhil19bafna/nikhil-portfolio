@@ -5,5 +5,16 @@ html {
 }
 
 body {
-  font-family: Inter, sans-serif;
+
+    margin:0;
+
+    background:
+
+        radial-gradient(circle at top right,#1e3a8a 0%,transparent 30%),
+
+        radial-gradient(circle at bottom left,#0f766e 0%,transparent 25%),
+
+        #020617;
+
+    color:white;
 }
