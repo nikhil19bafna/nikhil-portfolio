@@ -29,13 +29,13 @@ Senior Java Backend Engineer
 
        
 <a
-  href="/resume.pdf"
+  href={`${import.meta.env.BASE_URL}Nikhil_Bafna_Resume.pdf`}
+  download
   className="flex items-center gap-2 rounded-xl bg-blue-600 px-8 py-4 font-semibold shadow-lg shadow-blue-700/30 transition duration-300 hover:scale-105 hover:bg-blue-500"
 >
   <Download size={18} />
   Download Resume
 </a>
-
 <a
   href="#projects"
   className="flex items-center gap-2 rounded-xl border border-blue-500 px-8 py-4 font-semibold transition duration-300 hover:scale-105 hover:bg-blue-600"

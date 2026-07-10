@@ -86,13 +86,13 @@ const Contact = () => {
             </div>
 
             <a
-              href="/Nikhil_Bafna_Resume.pdf"
-              download
-              className="inline-flex items-center gap-2 mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition"
-            >
-              <Download size={18} />
-              Download Resume
-            </a>
+  href={`${import.meta.env.BASE_URL}Nikhil_Bafna_Resume.pdf`}
+  download
+  className="inline-flex items-center gap-2 mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition"
+>
+  <Download size={18} />
+  Download Resume
+</a>
           </motion.div>
 
           {/* Right Side */}
