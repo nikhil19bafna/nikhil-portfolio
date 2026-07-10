@@ -18,8 +18,7 @@ export const projects = [
       "Automated workflow using n8n",
       "Professional content generation"
     ],
-
-    github: "#",
+    github: "https://github.com/nikhil19bafna/CalibreATS",
     demo: "#"
   },
 
@@ -45,7 +44,7 @@ export const projects = [
       "Automated recruitment workflow"
     ],
 
-    github: "#",
+    github: "https://github.com/nikhil19bafna/CalibreATS",
     demo: "#"
   }
 ];

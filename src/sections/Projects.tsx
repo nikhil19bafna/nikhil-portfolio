@@ -47,7 +47,7 @@ export default function Projects() {
 
             <div className="mt-8 flex gap-6">
               <a
-                href={projects.github}
+                href={project.github}
                 className="flex items-center gap-2 text-blue-400 hover:text-blue-300"
               >
                 <Code2 size={18} />
